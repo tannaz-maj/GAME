@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&family=El+Messiri:wght@400..700&family=Marhey:wght@300..700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #fea3aa;
+  font-family: "El Messiri", sans-serif;
+}
+.user-input-section {
+  direction: rtl;
+}
+.wrapper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 90%;
+  max-width: 37em;
+  background-color: #fffff4;
+  padding: 7em 3em;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  border-radius: 1em;
+}
+#start {
+  font-size: 1.2em;
+  padding: 1em 3em;
+  background-image: linear-gradient(
+    to right,
+    #ff71aa,
+    #ffc0d9,
+    #f9f9e0,
+    #8acdd7
+  );
+  color: #413839;
+  border: none;
+  outline: none;
+  border-radius: 2em;
+  cursor: pointer;
+  transition: all 1s ease-in;
+}
+#start:hover{
+  box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;}
+
+.control-container {
+  background-color: #fea3aa;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.letter-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8em 0.4em;
+  justify-content: center;
+  margin-top: 2em;
+  
+}
+.letter-container img {
+  width: 1.7em;
+  height: 1.7em;
+  border-radius: 0.3em;
+  cursor: pointer;
+  
+}
+.incorrect{
+  opacity: 0.5;
+}
+.hint-ref {
+  margin-bottom: 1em;
+}
+.hint-ref span {
+  font-weight: 600;
+}
+#chanceCount {
+  margin: 1em 0;
+  position: absolute;
+  top: 0.62em;
+  right: 2em;
+}
+#word {
+  font-weight: 600;
+  margin: 1em 0 2em 0;
+  
+}
+#word span {
+  font-weight: 400;
+}
+.hide {
+  display: none;
+}

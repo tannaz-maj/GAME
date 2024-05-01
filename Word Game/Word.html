@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Guess The Word !</title>
+    <link rel="stylesheet" href="Word.css" />
+    <link rel="stylesheet" href="./all/all.css" />
+    <script src="./all/all.js"></script>
+    <script src="./jquery/jquery-3.6.0.min.js"></script>
+    <script src="./jquery/jquery-ui.js"></script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="hint-ref"></div>
+      <div class="user-input-section"></div>
+      <div class="msg"></div>
+      <div class="letter-container">
+        <img src="./img/الف.jpg" alt="" name="ا" onclick="chk(this)" />
+        <img src="./img/ب.jpg" alt="" name="ب" onclick="chk(this)" />
+        <img src="./img/پ.jpg" alt="" name="پ" onclick="chk(this)" />
+        <img src="./img/ت.jpg" alt="" name="ت" onclick="chk(this)" />
+        <img src="./img/ث.jpg" alt="" name="ث" onclick="chk(this)" />
+        <img src="./img/ج.jpg" alt="" name="ج" onclick="chk(this)" />
+        <img src="./img/چ.jpg" alt="" name="چ" onclick="chk(this)" />
+        <img src="./img/ح.jpg" alt="" name="ح" onclick="chk(this)" />
+        <img src="./img/خ.jpg" alt="" name="خ" onclick="chk(this)" />
+        <img src="./img/د.jpg" alt="" name="د" onclick="chk(this)" />
+        <img src="./img/ذ.jpg" alt="" name="ذ" onclick="chk(this)" />
+        <img src="./img/ر.jpg" alt="" name="ر" onclick="chk(this)" />
+        <img src="./img/ز.jpg" alt="" name="ز" onclick="chk(this)" />
+        <img src="./img/ژ.jpg" alt="" name="ژ" onclick="chk(this)" />
+        <img src="./img/س.jpg" alt="" name="س" onclick="chk(this)" />
+        <img src="./img/ش.jpg" alt="" name="ش" onclick="chk(this)" />
+        <img src="./img/ص.jpg" alt="" name="ص" onclick="chk(this)" />
+        <img src="./img/ض.jpg" alt="" name="ض" onclick="chk(this)" />
+        <img src="./img/ط.jpg" alt="" name="ط" onclick="chk(this)" />
+        <img src="./img/ظ.jpg" alt="" name="ظ" onclick="chk(this)" />
+        <img src="./img/ع.jpg" alt="" name="ع" onclick="chk(this)" />
+        <img src="./img/غ.jpg" alt="" name="غ" onclick="chk(this)" />
+        <img src="./img/ف.jpg" alt="" name="ف" onclick="chk(this)" />
+        <img src="./img/ق.jpg" alt="" name="ق" onclick="chk(this)" />
+        <img src="./img/ک.jpg" alt="" name="ک" onclick="chk(this)" />
+        <img src="./img/گ.jpg" alt="" name="گ" onclick="chk(this)" />
+        <img src="./img/ل.jpg" alt="" name="ل" onclick="chk(this)" />
+        <img src="./img/م.jpg" alt="" name="م" onclick="chk(this)" />
+        <img src="./img/ن.jpg" alt="" name="ن" onclick="chk(this)" />
+        <img src="./img/و.jpg" alt="" name="و" onclick="chk(this)" />
+        <img src="./img/ه.jpg" alt="" name="ه" onclick="chk(this)" />
+        <img src="./img/ی.jpg" alt="" name="ی" onclick="chk(this)" />
+      </div>
+    </div>
+
+    <div class="control-container">
+      <div id="result"></div>
+      <div id="word"></div>
+      <button id="start">شروع</button>
+    </div>
+
+    <audio autoplay loop>
+      <source src="./music/Merry Go Round of Life .mp3" />
+    </audio>
+
+    <script src="./Word.js"></script>
+  </body>
+</html>
